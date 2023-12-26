@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "0290a8bb-53e6-49e8-abbe-bcf67468e48a",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8000/api/user-profile",
+    "url": "http://localhost:8000/api/user-profile",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-31T16:31:23.008Z",
+    "modified": "2023-03-31T16:31:23.008Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "4d2368a0-6d02-4fdc-ab2d-38717766c4a9",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8000/api/user/details",
+    "url": "http://localhost:8000/api/user/details",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-31T16:31:37.960Z",
+    "modified": "2023-03-31T16:31:37.960Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "74f3a75a-771b-4403-910f-8ee81c6077bb",
+    "colId": "history",
+    "containerId": "",
+    "name": "User Details",
+    "url": "http://localhost:8000/api/user/details",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-31T16:31:56.916Z",
+    "modified": "2023-03-31T16:52:49.422Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjYyYjlhYWUwYWFmYjM5ZDUyZmY2NTA0ZWZmM2JlODQwNjg0MzQ5ZGVhOWZiMzEyNmVkYTQ0NmQwNThhNmJmNWFjMTI5YjA5ZjdkMThkZWM5In0.eyJhdWQiOiIxIiwianRpIjoiNjJiOWFhZTBhYWZiMzlkNTJmZjY1MDRlZmYzYmU4NDA2ODQzNDlkZWE5ZmIzMTI2ZWRhNDQ2ZDA1OGE2YmY1YWMxMjliMDlmN2QxOGRlYzkiLCJpYXQiOjE2ODAxOTY5OTQsIm5iZiI6MTY4MDE5Njk5NCwiZXhwIjoxNzExODE5Mzk0LCJzdWIiOiI1Iiwic2NvcGVzIjpbXX0.vPhDnMEcMVslmH8woXiHaJcAIMlZos5YatgMaJNYIt9qJZl5q5C_ZhPt-8eKyKQ6Xdy7Z1xpL0xjgJq4x2EyD7Y59kkETRKEcpKOcLZNJ9J_mmh4MN-6lfnyhj_oxHQo7J4ZcCdxpJwtEYQvXtb1yBbblbSwvs-JYDtDGh2VhhBMXynGZz2Ik87xZF4te9_q-jCRQR5LYptx5UwJ0i-BdKC5zbpm43v-St6iucUPR_TjbZ9bWv_zb01fJK-rnHTJPEd-mYDb-YHdnQf6YWdRljTtc8984wDV-q4LSGZsc-ubTLkAtWcSkHjEC317zLsvkmwtIXZGyAw0GwfNmRX52i3sIOAqC4MJa0j_Qn50swphaBgjgwjFbcGRIW681NqhMKtIz_WgX5__w3JTBZebi7tZbb8fOR3rYjJSWnth3HB5ChgXFaGu4UmMRRh766xpG93jyxuygl3Dia930aTqfxJiUjpkbE7nwGaGggtzhpeQrFr9VxeipV21rzUKdLPof91TnutyMI52OSAVkIjdv0au6oRzmaKdnGTHQCDy7vkzmNh99bZE8NjnJxg5VVvYhwrzpT10gFlk3OeVGzFUP_rE0O2StXXxqUXDTR7EkEnXBI93XhniDFoUZjp2A7HzzdRIkFfudfEp1FjYEmw4Ecbq_bu_Uq4fuBd8xFJaBmU"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f636dbc4-76f1-4dc5-a159-3c81990cfd3b",
+    "colId": "history",
+    "containerId": "",
+    "name": "User Details Copy",
+    "url": "http://localhost:8000/api/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-31T16:31:56.916Z",
+    "modified": "2023-03-31T16:35:03.333Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjYyYjlhYWUwYWFmYjM5ZDUyZmY2NTA0ZWZmM2JlODQwNjg0MzQ5ZGVhOWZiMzEyNmVkYTQ0NmQwNThhNmJmNWFjMTI5YjA5ZjdkMThkZWM5In0.eyJhdWQiOiIxIiwianRpIjoiNjJiOWFhZTBhYWZiMzlkNTJmZjY1MDRlZmYzYmU4NDA2ODQzNDlkZWE5ZmIzMTI2ZWRhNDQ2ZDA1OGE2YmY1YWMxMjliMDlmN2QxOGRlYzkiLCJpYXQiOjE2ODAxOTY5OTQsIm5iZiI6MTY4MDE5Njk5NCwiZXhwIjoxNzExODE5Mzk0LCJzdWIiOiI1Iiwic2NvcGVzIjpbXX0.vPhDnMEcMVslmH8woXiHaJcAIMlZos5YatgMaJNYIt9qJZl5q5C_ZhPt-8eKyKQ6Xdy7Z1xpL0xjgJq4x2EyD7Y59kkETRKEcpKOcLZNJ9J_mmh4MN-6lfnyhj_oxHQo7J4ZcCdxpJwtEYQvXtb1yBbblbSwvs-JYDtDGh2VhhBMXynGZz2Ik87xZF4te9_q-jCRQR5LYptx5UwJ0i-BdKC5zbpm43v-St6iucUPR_TjbZ9bWv_zb01fJK-rnHTJPEd-mYDb-YHdnQf6YWdRljTtc8984wDV-q4LSGZsc-ubTLkAtWcSkHjEC317zLsvkmwtIXZGyAw0GwfNmRX52i3sIOAqC4MJa0j_Qn50swphaBgjgwjFbcGRIW681NqhMKtIz_WgX5__w3JTBZebi7tZbb8fOR3rYjJSWnth3HB5ChgXFaGu4UmMRRh766xpG93jyxuygl3Dia930aTqfxJiUjpkbE7nwGaGggtzhpeQrFr9VxeipV21rzUKdLPof91TnutyMI52OSAVkIjdv0au6oRzmaKdnGTHQCDy7vkzmNh99bZE8NjnJxg5VVvYhwrzpT10gFlk3OeVGzFUP_rE0O2StXXxqUXDTR7EkEnXBI93XhniDFoUZjp2A7HzzdRIkFfudfEp1FjYEmw4Ecbq_bu_Uq4fuBd8xFJaBmU"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\": \"linkmeguestuser9911@user.com\",\n    \"password\": \"Linkme@12\",\n    \"user_type\": 0,\n    \"device_type\": \"ios\",\n    \"device_token\": \"dHvCrKa6G08BgVEHoo4sIE:APA91bF4p2V_jhj8PbwpDI5GfJFT0swp_5B6VDx_ucAW9YbA_DppIZUmcc_pG77Elv0NJG_J2TK3bvJP5xKJ1WbeHRgNck_CVbLH-G9Y63nbuLNl7DQeAuUM17iVcpj86k1DPkenrBrs\",\n    \"device_id\": \"AF5F1485-AD3A-4D91-8403-4B2F5915563B\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

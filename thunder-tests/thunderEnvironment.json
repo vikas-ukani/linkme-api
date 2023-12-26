@@ -1,0 +1,25 @@
+[
+  {
+    "_id": "48d59b6e-d573-4851-b9f1-591bba3ea8d2",
+    "name": "(Global Env)",
+    "default": false,
+    "global": true,
+    "sortNum": -2,
+    "created": "2023-03-31T16:53:43.256Z",
+    "modified": "2023-03-31T16:53:43.256Z",
+    "data": [
+      {
+        "name": "local",
+        "value": "http://localhost:8000"
+      },
+      {
+        "name": "live",
+        "value": "https://api.thelinkmeapp.com"
+      },
+      {
+        "name": "token",
+        "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjdmNDI1YjI5MWQxZDNmODYwOTIxYzM0ZGYzMmRmYjljMGZkODhkZTdhYzhlNWQ3NDk2OGM3NWQ3NmIzYTdmOWQxYjIwNDAzNTFiNDJmMTEzIn0.eyJhdWQiOiI1IiwianRpIjoiN2Y0MjViMjkxZDFkM2Y4NjA5MjFjMzRkZjMyZGZiOWMwZmQ4OGRlN2FjOGU1ZDc0OTY4Yzc1ZDc2YjNhN2Y5ZDFiMjA0MDM1MWI0MmYxMTMiLCJpYXQiOjE2ODAyODE2NzIsIm5iZiI6MTY4MDI4MTY3MiwiZXhwIjoxNzExOTA0MDcyLCJzdWIiOiIxMyIsInNjb3BlcyI6W119.MwFCnlylO3DuTgHOqOt-0vSRK3WTH8WaxHldbaa0msPAMjiVSjWybNF5pmfgXTG9vOuuN8NkFGpqKMLgXwtQIr9wFP7NNuwVwNB07IfWVilGaiaaqQXYZ7c008d3SNFaiJ-SviAuoZmS009U8fsFeLT1EtrW_dV0OS3nF-IGDmU9crbBQra9yhy8fM1P5srmfDcVya5rvZ3wfGzpZHfOh_lXxpiMbmd4EFdxJFMmvaZyXKujK2iZ2AH7AeqZvFH3BlV-aSSc9D_74OmMUD29x1Kb37K35ajAIuJXNh5O49Uy7pWwI-LmV6fRJR7PJ0t4MligAyydRDkcAUy962ch8I4vjAtldrKr-8t0u9vuMqKx_1_kQ77KHOa35XyHFYl0_UNt9-nZh6eltqKmv2KWGhpk0wazxsvzwN37SgNpjdIenDg15CtHfNQunyTS2AwdMqWuTlw-k9y94bO19kwmDIXz3dnBTjBxSDWdFKUzmsKL2uOZlZ8m0mmR5Mz0IKIPtRT9CtijfyMxuZX7rfb1GTdmzK9sgvBpJETkY0x67_EwcX6aoR8esXWW-iPjRbiqSy_RvhYyZVTrS_lYkFYr76CMu6goHlKzyL4kP1t55BNsQ4DTxsHiw_4z6ufaB6OTy5gxa5EUGmNLiu9giwB8ImHQDE66__jw-auJEdRlufQ"
+      }
+    ]
+  }
+]

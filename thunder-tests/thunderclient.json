@@ -1,0 +1,97 @@
+[
+  {
+    "_id": "236556d8-c8fd-4566-a28f-206e7b60ac17",
+    "colId": "32a48432-362c-41aa-91b0-7d4f51417744",
+    "containerId": "",
+    "name": "Login",
+    "url": "{{local}}/api/login",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-03-31T16:53:37.402Z",
+    "modified": "2023-03-31T16:55:11.392Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"linkmeguestuser9911@user.com\",\n  \"password\": \"Linkme@12\",\n  \"user_type\": 0,\n  \"device_type\": \"aios\",\n  \"device_token\": \"dHvCrKa6G08BgVEHoo4sIE:APA91bF4p2V_jhj8PbwpDI5GfJFT0swp_5B6VDx_ucAW9YbA_DppIZUmcc_pG77Elv0NJG_J2TK3bvJP5xKJ1WbeHRgNck_CVbLH-G9Y63nbuLNl7DQeAuUM17iVcpj86k1DPkenrBrs\",\n  \"device_id\": \"AF5F1485-AD3A-4D91-8403-4B2F5915563B\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "cba94f5e-5f5b-4c3c-a03d-147c44ba1a26",
+    "colId": "32a48432-362c-41aa-91b0-7d4f51417744",
+    "containerId": "",
+    "name": "User Details",
+    "url": "{{local}}/api/user/details",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-03-31T16:55:26.708Z",
+    "modified": "2023-03-31T17:00:11.343Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "{{token}}"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"user_id\": 13,\n  \"user_type\": 0\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f8f19b7f-e9b3-42b0-8751-07b1f17f4fc2",
+    "colId": "32a48432-362c-41aa-91b0-7d4f51417744",
+    "containerId": "",
+    "name": "User Details Copy",
+    "url": "http://localhost:8000/api/login",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-03-31T16:55:33.247Z",
+    "modified": "2023-03-31T16:55:33.247Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjYyYjlhYWUwYWFmYjM5ZDUyZmY2NTA0ZWZmM2JlODQwNjg0MzQ5ZGVhOWZiMzEyNmVkYTQ0NmQwNThhNmJmNWFjMTI5YjA5ZjdkMThkZWM5In0.eyJhdWQiOiIxIiwianRpIjoiNjJiOWFhZTBhYWZiMzlkNTJmZjY1MDRlZmYzYmU4NDA2ODQzNDlkZWE5ZmIzMTI2ZWRhNDQ2ZDA1OGE2YmY1YWMxMjliMDlmN2QxOGRlYzkiLCJpYXQiOjE2ODAxOTY5OTQsIm5iZiI6MTY4MDE5Njk5NCwiZXhwIjoxNzExODE5Mzk0LCJzdWIiOiI1Iiwic2NvcGVzIjpbXX0.vPhDnMEcMVslmH8woXiHaJcAIMlZos5YatgMaJNYIt9qJZl5q5C_ZhPt-8eKyKQ6Xdy7Z1xpL0xjgJq4x2EyD7Y59kkETRKEcpKOcLZNJ9J_mmh4MN-6lfnyhj_oxHQo7J4ZcCdxpJwtEYQvXtb1yBbblbSwvs-JYDtDGh2VhhBMXynGZz2Ik87xZF4te9_q-jCRQR5LYptx5UwJ0i-BdKC5zbpm43v-St6iucUPR_TjbZ9bWv_zb01fJK-rnHTJPEd-mYDb-YHdnQf6YWdRljTtc8984wDV-q4LSGZsc-ubTLkAtWcSkHjEC317zLsvkmwtIXZGyAw0GwfNmRX52i3sIOAqC4MJa0j_Qn50swphaBgjgwjFbcGRIW681NqhMKtIz_WgX5__w3JTBZebi7tZbb8fOR3rYjJSWnth3HB5ChgXFaGu4UmMRRh766xpG93jyxuygl3Dia930aTqfxJiUjpkbE7nwGaGggtzhpeQrFr9VxeipV21rzUKdLPof91TnutyMI52OSAVkIjdv0au6oRzmaKdnGTHQCDy7vkzmNh99bZE8NjnJxg5VVvYhwrzpT10gFlk3OeVGzFUP_rE0O2StXXxqUXDTR7EkEnXBI93XhniDFoUZjp2A7HzzdRIkFfudfEp1FjYEmw4Ecbq_bu_Uq4fuBd8xFJaBmU"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\": \"linkmeguestuser9911@user.com\",\n    \"password\": \"Linkme@12\",\n    \"user_type\": 0,\n    \"device_type\": \"ios\",\n    \"device_token\": \"dHvCrKa6G08BgVEHoo4sIE:APA91bF4p2V_jhj8PbwpDI5GfJFT0swp_5B6VDx_ucAW9YbA_DppIZUmcc_pG77Elv0NJG_J2TK3bvJP5xKJ1WbeHRgNck_CVbLH-G9Y63nbuLNl7DQeAuUM17iVcpj86k1DPkenrBrs\",\n    \"device_id\": \"AF5F1485-AD3A-4D91-8403-4B2F5915563B\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

@@ -1,0 +1,75 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "aws/aws-sdk-php": "^3.176",
+        "doctrine/dbal": "2.*",
+        "fideloper/proxy": "^4.0",
+        "fruitcake/laravel-cors": "^3.0",
+        "huddledigital/zendesk-laravel": "^3.5",
+        "laravel/framework": "^7.0",
+        "laravel/passport": "^7.3",
+        "laravel/socialite": "^4.0",
+        "laravel/telescope": "*",
+        "laravel/tinker": "^3.0",
+        "lcobucci/jwt": "3.3.3",
+        "league/flysystem-aws-s3-v3": "~1.0",
+        "spatie/laravel-permission": "^3.0",
+        "stripe/stripe-php": "^7.68",
+        "twilio/sdk": "^6.17",
+        "yoelpc4/laravel-cloudinary": "^2.2"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.0",
+        "fzaninotto/faker": "^1.4",
+        "knuckleswtf/scribe": "^3.37",
+        "mockery/mockery": "^1.0",
+        "nunomaduro/collision": "*",
+        "phpunit/phpunit": "^7.5"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    }
+}
